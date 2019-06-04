@@ -25,11 +25,6 @@ RUN apt-get install golang -y
 RUN export GOPATH=/tmp && \
 	export PATH=$PATH:$GOPATH
 
-#19.05
-RUN apt-get install golang -y
-
-RUN export GOPATH=/tmp/mopp-2018-t2-levenshtein
-RUN export PATH=$PATH:$GOPATH
 
 #12.04
 #compile ccp
